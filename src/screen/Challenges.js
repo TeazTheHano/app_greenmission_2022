@@ -25,6 +25,7 @@ const Challenges = () => {
             borderBottomLeftRadius: 50,
             borderBottomRightRadius: 40,
             position: "absolute",
+            alignSelf: 'center',
           }}
         >
           <View
@@ -64,8 +65,9 @@ const Challenges = () => {
             height: 151,
             backgroundColor: "white",
             borderRadius: 25,
-            marginHorizontal: "10%",
+            alignSelf: 'center',
             marginTop: 209,
+
           }}
         >
           <View
@@ -109,7 +111,7 @@ const Challenges = () => {
             width: 335,
             height: "auto",
             backgroundColor: "#FFBB00",
-            marginHorizontal: "10%",
+            alignSelf: 'center',
             marginTop: 19,
             borderRadius: 11,
             flexDirection: "row",
@@ -171,7 +173,7 @@ const Challenges = () => {
             width: 335,
             height: "auto",
             backgroundColor: "#13A49E",
-            marginHorizontal: "10%",
+            alignSelf: 'center',
             marginTop: 19,
             borderRadius: 11,
             flexDirection: "row",
@@ -227,7 +229,7 @@ const Challenges = () => {
             width: 335,
             height: "auto",
             backgroundColor: "#B8B8B8",
-            marginHorizontal: "10%",
+            alignSelf: 'center',
             marginTop: 19,
             borderRadius: 11,
             flexDirection: "row",
@@ -286,7 +288,7 @@ const Challenges = () => {
             width: 335,
             height: "auto",
             backgroundColor: "#B8B8B8",
-            marginHorizontal: "10%",
+            alignSelf: 'center',
             marginTop: 19,
             borderRadius: 11,
             flexDirection: "row",
@@ -339,7 +341,7 @@ const Challenges = () => {
             </View>
           </View>
         </View>
-        <View style={{ marginHorizontal: "10%", marginTop: 22 }}>
+        <View style={{ alignSelf: 'center', marginTop: 22 }}>
           <Text>Đổi xu</Text>
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
             <View style={{ flexDirection: "row", marginTop: 15 }}>
@@ -347,7 +349,7 @@ const Challenges = () => {
             </View>
           </ScrollView>
         </View>
-        <View style={{ marginHorizontal: "10%", marginTop: 22 }}>
+        <View style={{ alignSelf: 'center', marginTop: 22 }}>
           <Text>Giỏ quà của bạn</Text>
 
           <View style={{ flexDirection: "row", marginTop: 15 }}>

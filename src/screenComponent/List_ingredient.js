@@ -48,6 +48,7 @@ const List_ingredient = () => {
                   lineHeight: 27,
                   color: "#3D7944",
                   fontWeight: "700",
+                  marginTop: '20%'
                 }}
               >
                 Nhựa
@@ -88,7 +89,7 @@ const List_ingredient = () => {
                 style={{
                   flexDirection: "row",
 
-                  marginTop: 67,
+                  marginTop: '5%',
                 }}
               >
                 <View
